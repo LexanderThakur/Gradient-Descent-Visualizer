@@ -71,9 +71,8 @@ st.latex(f"Y={theta[1][0]:.2f}X+{theta[0][0]:.2f}")
 st.write(f"Iteration number = {st.session_state.step}")
 
 
-import streamlit as st
 
-# Display the cost function using LaTeX
+
 
 st.latex(r'Minimising :   J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)})^2')
 st.latex(r'Using  \theta := \theta - \frac{\alpha}{m} \sum_{i=1}^{m} (h_{\theta}(x^{(i)}) - y^{(i)}) x^{(i)}')
